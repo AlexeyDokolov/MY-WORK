@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREQAAAREQABERAAAREQAAEREAAREQAAAREQAREQAAABERAREQAAAAEREREQAAAAAREREQAAAAABERERAAAAAAEREREQAAAAAREQEREAAAABERABERAAAAEREAAREQAAAREQAAEREAABERAAABERAAEREAAAAAAAAREQAAAAAACHwwAAh4cAAIcPAACGHwAAhD8AAIB/AACA/wAAgP8AAIB/AACEPwAAhh8AAIcPAACHhwAAh8MAAIf/AACH/wAA" rel="icon" type="image/x-icon" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Автозапчасти</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="bootstrap-social.css">
+  <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link href="http://bootstraptema.ru/snippets/slider/2016/bcts/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+ 
+</head>
+<body>
+     
+    
+  <div class="wrap">
+  <div class="full_contacts">
+    
+  <div class="contacts">
+      <div class="call" >
+        <div>Звоните: <span class="call_phone"><a href="tel:+79128886201">+7(912)888-62-01</a></span></div>
+        <div>Пишите:  <span class="call_mail"><a href="mailto:Kontrakt59@mail.ru?subject=Письмо c kontrakt59.ru">Kontrakt59@mail.ru</a></span></div>
+      </div>
+  
+ 
+  
+    <div class="social"> 
+
+     <a href="https://vk.com/kontraktcentre" target="_blank" class="vk" title="Перейти в нашу группу в Вконтакте!">
+         <span class="fa fa-vk fa-2x"></span>
+     </a>
+    </div>
+      
+    </div>  
+    <nav class="navbar navbar-default role="navigation">
+     <!-- Бренд или логотип фирмы (обычно содержит ссылку на главную страницу) -->
+      <a class="pull-left" href="#"> <img class="logo" src="img/logo.png" alt=""></a>
+  <!-- Бренд и переключатель, который вызывает меню на мобильных устройствах -->
+      <div class="navbar-header">
+    <!-- Кнопка с полосочками, которая открывает меню на мобильных устройствах -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+
+      </div>
+  <!-- Содержимое меню (коллекция навигационных ссылок, формы и др.) -->
+  <div class="collapse navbar-collapse" id="main-menu" >
+      <!-- Список ссылок, расположенных слева -->
+    <ul class="nav navbar-nav">
+      <!--Элемент с классом active отображает ссылку подсвеченной -->
+  
+      <!-- Список ссылок, расположенный справа -->
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active1 activ"><a>Главная</a></li>
+          <li class="active2" ><a class="auto_zap smooth" target="_self" href="#zapchasti" >Автозапчасти</a></li>
+          <li class="active3"><a class="smooth" target="_self" href="#howto">Принцип работы</a></li>
+          <li class="active4"><a class="preim smooth" target="_self" href="#wegoodboys">Преимущества</a></li>
+          <li class="active5"><a class="smooth" target="_self" href="#contacts"  data-uk-smooth-scroll="{offset: -90}">Контакты</a></li>
+        </ul>
+    </ul>
+      </ul>
+  </div>
+</nav>
+<!-- Меню navbar -->
+</div>
+
+      <main>
+          <div class="button-to-down hidden-xs" ">
+           <a class="smooth" target="_self" href="#zapchasti"><img src="img/down.png" alt="" title="Вниз"></a>
+          </div>
+          <div>
+              <h1>Б/у и Контрактные<br>
+                  автозапчасти<br>
+                  на все иномарки<br>
+                  в Перми!</h1>
+              <p>Оставьте заявку на бесплатный<br>
+                  подбор автозапчасти<br>
+                  прямо сейчас!</p>
+          </div>
+
+
+
+   <div class="row forma1 ">
+
+
+    <div class="col-lg-12">
+      <form id="form" class="form-horizontal" name="contact_form" action="post.php" method= "POST">
+      <div class="form-group  ">
+      <div class="col-sm-10"><input autocomplete="off" required="" id="name" class="form-control" type="text" name="name" placeholder="Имя" /></div>
+      </div>
+      <div class="form-group">
+      <div class="col-sm-10"><input autocomplete="off" pattern="^[0123456789]+$" required="" id="phone" class="form-control" name="phone" type="text" placeholder="Телефон" /></div>
+      </div>
+      <div class="form-group">
+      <div class="col-sm-10"><input autocomplete="off"  required="" id="marka" class="form-control" name="marka" type="text" placeholder="Марка автомобиля" /> 
+      </div></div>
+         <div class="form-group">
+       <div class="col-sm-10"><input autocomplete="off" required="" id="thing" class="form-control" name="thing" type="text" placeholder="Требуемая запчасть" /> 
+      </div></div>
+        <div class="form-group">
+         <div class="col-sm-10">
+     <input type="submit" value="Заказать"  class="btn btn-danger bt vf-submit">
+</div></div>
+ <div class="form-group">
+  <div class="col-sm-10">
+  
+<a type="button" href="#bigform" target="_self" class="btn btn-primary to_full_forms smooth">Перейти к полной форме заявки</a>
+
+</div></div>
+      </form>
+    </div>
+ 
+
+  </div>
+</div>
+      
+
+
+    
+  </main>
+<p id="zapchasti"></p>
+<div class="auto">
+    <div class="container">
+
+    </div>
+<h1  class="blue">Подберем автозапчасти именно для Вас!</h1>
+<img class="dot" src="img/dot.png"></img>
+<p>Выберите марку машины</p>
+<div class="for_forma2">
+ <div class="forma2 ">
+
+
+    <div class="col-lg-12">
+      <form id="form" class="form-horizontal" name="contact_form" action="post.php" method= "POST">
+      <div class="form-group  ">
+      <div class="col-sm-10"><input autocomplete="off" required="" id="name" class="form-control" type="text" name="name" placeholder="Имя" /></div>
+      </div>
+      <div class="form-group">
+      <div class="col-sm-10"><input autocomplete="off" required="" id="phone" class="form-control" name="phone" type="text" placeholder="Телефон" pattern="^[0123456789]+$" /></div>
+      </div>
+      <div class="form-group">
+      <div class="col-sm-10"><input autocomplete="off" required="" id="marka" class="form-control" name="marka" type="text" placeholder="Марка автомобиля" /> 
+      </div></div>
+         <div class="form-group">
+       <div class="col-sm-10"><input autocomplete="off" required="" id="thing" class="form-control" name="thing" type="text" placeholder="Требуемая запчасть" /> 
+      </div></div>
+        <div class="form-group">
+         <div class="col-sm-10">
+             <input type="submit" value="Заказать"  class="btn btn-danger bt vf-submit">
+  
+</div></div>
+ <div class="form-group">
+  <div class="col-sm-10">
+  <a href="#full_form">
+<a type="button" target="_self" href="#bigform" class="btn btn-primary to_full_forms">Перейти к полной форме заявки</a>
+</a>
+</div></div>
+      </form>
+    </div>
+ <div class="closes">
+<a class="close" title="Закрыть" href="#close"></a>
+</div>
+  </div>
+
+  </div>
+
+<div class="autos">
+<div class="marka">
+
+<div class="car"><img src="img/auto/1.png" alt=""></div>
+<div class="car"><img src="img/auto/2.png" alt=""></div>
+<div class="car"><img src="img/auto/3.png" alt=""></div>
+
+
+</div>
+
+<div class="marka">
+
+<div class="car"><img src="img/auto/4.png" alt=""></div>
+<div class="car"><img src="img/auto/5.png" alt=""></div>
+<div class="car"><img src="img/auto/6.png" alt=""></div>
+
+</div>
+
+<div class="marka">
+
+<div class="car"><img src="img/auto/7.png" alt=""></div>
+<div class="car"><img src="img/auto/8.png" alt=""></div>
+<div class="car"><img src="img/auto/9.png" alt=""></div>
+
+
+</div>
+
+<div class="marka">
+
+<div class="car"><img src="img/auto/10.png" alt=""></div>
+<div class="car"><img src="img/auto/11.png" alt=""></div>
+<div class="car"><img src="img/auto/12.png" alt=""></div>
+
+</div>
+
+</div>
+
+</div>
+
+<p id="howto"></p>
+<div  class="work_with_clients">
+
+<h1  class="blue">Как мы работаем с нашими клиентами?</h1>
+<img class="dot" src="img/dot.png">
+
+
+<div class="work_with_clients1">
+
+<div class="work_with_clients2">
+<div >
+<ul>
+<li><img id="image" src="img/list.png" alt="">
+<p>ЗВОНОК ИЛИ
+ЗАЯВКА С САЙТА</p>
+<div class="work_with_clients1_block1">
+  <img src="img/arrow.png" alt="">
+</div>
+</li>
+</ul>
+</div>
+
+<div>
+<ul>
+<li><img id="image" src="img/search.png" alt="">
+<p>КОНСУЛЬТАЦИЯ И ПОДБОР
+АВТОЗАПЧАСТЕЙ</p>
+<div class="work_with_clients1_block1">
+  <img src="img/arrow.png" alt="">
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+<div class="work_with_clients2">
+<div>
+<ul>
+<li><img id="image" src="img/cash.png" alt="">
+<p>ОПЛАТА
+ВАШЕГО ЗАКАЗА</p>
+<div class="work_with_clients1_block1">
+  <img src="img/arrow.png" alt="">
+</div>
+</li>
+</ul>
+</div>
+
+
+<div>
+<ul>
+<li><img id="image" src="img/car.png" alt="">
+<p>ПОЛУЧЕНИЕ
+ЗАКАЗА</p>
+<button class="work_with_clients1_block1_button">Заказать</button>
+</li>
+</ul>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+
+<div class="send_big_thing">
+<div>
+  <h1>ДОСТАВКА КРУПНОУЗЛОВЫХ ЗАПЧАСТЕЙ<br>
+БЕСПЛАТНО ПО ПЕРМИ!</h1>
+<button>Узнать больше</button>
+</div>
+</div>
+
+<p id="wegoodboys"></p>
+
+<div>
+  
+  <h1  class="blue">
+    ПРЕИМУЩЕСТВА РАБОТЫ С НАМИ
+  </h1>
+  <img class="dot" src="img/dot.png">
+
+<div class="services">
+
+<div class="good_service service1">
+  <img src="img/corona.png" alt=""><br><br>
+  <span>БЫСТРАЯ ДОСТАВКА</span><br>
+  <p>Быстрая доставка.<br> Доставим в любую точку города, в удобное для вас время</p>
+  <p></p>
+  <p></p>
+  <button>Узнать больше</button>
+</div>
+<div class="good_service service2">
+  <img src="img/corona.png" alt=""><br><br>
+  <span>КАЧЕСТВО И ЦЕНА</span>
+  <p>Качественные запчасти по доступной цене. Мы гарантируем оригинальность автозапчастей в отличном техническом состоянии  </p>
+  <button>Узнать больше</button>
+</div>
+<div class="good_service service3">
+  <img src="img/corona.png" alt=""><br><br>
+  <span>БОЛЬШОЙ ВЫБОР</span>
+  <p>Большой выбор запчастей.<br>Вы можете найти деталь для любого автомобиля<br> зарубежного производства  </p>
+  <button>Узнать больше</button>
+</div>
+<div class="good_service service4">
+  <img src="img/corona.png" alt=""><br><br>
+  <span>КАЧЕСТВЕННЫЙ СЕРВИС</span>
+  <p>Наши сотрудники являются профессионалами своего дела. Они ответят на любые ваши вопросы и помогут с выбором</p>
+  <button>Узнать больше</button>
+</div>
+  
+</div>
+
+
+</div>
+
+<p id="bigform"></p>
+<div class="full_form">
+
+  <h1 class="blue">ФОРМА ЗАКАЗА ЗАПЧАСТЕЙ</h1>
+<span>Укажите полную и подробную информацию</span>
+<div class="for_titile_full_form">
+  <div id="titile_full_form"><span>1</span></div> 
+  
+  <div id="titile_full_form"><span>2</span></div>
+  
+  <div id="titile_full_form"><span>3</span></div>
+  
+
+
+</div>
+
+<div class="name_titile_full_form">
+
+<li>Автомобиль</li>
+<li>Запчасти</li>
+<li>Контакты</li>
+
+</div>
+
+<div class="full_form_forma">
+  
+<div >
+  <form class="form_auto"  action="post3.php" method= "POST">
+  <div class="form-group">
+    <label >Марка</label>
+    <input name="marka1" type="text" autocomplete="off" class="form-control" required=""  placeholder="Укажите марку:">
+  </div>
+  <div class="form-group">
+    <label >Модель:</label>
+    <input required="" autocomplete="off" type="text" name="model1" class="form-control" placeholder="Укажите модель:">
+  </div>
+    <div class="form-group">
+    <label>Кузов</label>
+    <input required="" autocomplete="off" name="kuzov1"  pattern="^[0123456789]+$" type="text" class="form-control"  placeholder="Укажите номер кузова:">
+  </div>
+  <div class="form-group">
+    <label >Двигатель:</label>
+    <input required="" autocomplete="off" name="dvizhok1" pattern="^[0123456789]+$" type="text" class="form-control" placeholder="Укажите номер двигателя:">
+  </div>
+  <div class="form-group">
+    <label >Год выпуска:</label>
+    <input  required="" autocomplete="off" name="year1" pattern="^[0123456789]+$" type="text" class="form-control" placeholder="Укажите год выпуска:">
+  </div>
+
+
+
+</div>
+<div class="form_thing">
+    <div class="form-group">
+    <label class="form-group2">Список запчастей</label>
+    <textarea rows="7" name="all_zaphasti1"  required="" class="form-control form-group2" placeholder="Укажите нужные запчасти:"></textarea>
+  </div>
+</div>
+<div class="form_contacts">
+<div class="surname_and_name">
+  <div class="form-group ">
+    <label>Ф.И.О.</label>
+    <input type="text" required="" name="FIO1" autocomplete="off" class="form-control"  placeholder="Ваше имя:">
+  </div>
+</div>  
+  <div class="form-group">
+    <label>Город:</label>
+    <input type="text" required="" name="city11" autocomplete="off" class="form-control" placeholder="Ваш город:">
+  </div>
+    <div class="form-group">
+    <label>Email</label>
+    <input required="" type="text" name="email1" autocomplete="off"  class="form-control"  placeholder="Ваш email">
+  </div>
+  <div class="form-group">
+    <label >
+Номер телефона</label>
+    <input required="" name="phone1" autocomplete="off" pattern="^[0123456789]+$" type="text" class="form-control " placeholder="Ваш телефон:">
+  </div>
+
+ </div>
+
+
+
+</div>
+<div class="full_form_forma_send">
+<div class="full_form_forma_send_to"> <input type="submit" value="Отправить"  class="btn btn-danger bt vf-submit">
+
+</div>
+</div>
+</form>
+</div>
+
+
+<div class="about_us">
+  <h1 class="blue">Отзывы</h1>
+  <p>Посмотрите, что о Нас пишут</p> 
+  <span>Больше отзывов в нашей группе: <a class="about_us_vkontakte" href="https://vk.com/kontraktcentre" target="_blank">Vkontakte</a></span><br>
+  <img class="dot" src="img/dot.png"></img>
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ 
+  <!-- Контент слайда (slider wrap)-->  
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/otziv1.png" alt="Здесь должна быть картинка" class="img-responsive center-block">
+      <div class="carousel-caption">
+          <span>Виталий</span>
+       <p class="for_otziv">Заказывал детали на шевролет Вива. Работают быстро и качественно, цены приятно удивляют. Доставка своевременная, даже было, что детали приходили раньше обещанного срока. Мне все понравилось.</p>
+      </div>
+    </div>
+
+        <div class="item ">
+        <img src="img/otziv2.png" alt="Здесь должна быть картинка" class="img-responsive center-block">
+<br><br>
+      <div class="carousel-caption">
+               <span>Юрий</span>
+       <p  class="for_otziv">Заказывал запчасти на Бмв 3.<br> Сработали очень быстро и по цене крайне выгодно получилось. В следующий раз обязательно к вам обращусь</p>
+      </div>
+    </div>
+
+        <div class="item ">
+       <img src="img/otzivi3.png" alt="Здесь должна быть картинка" class="img-responsive center-block">
+      <div class="carousel-caption">
+               <span>Кирилл</span>
+       <p  class="for_otziv">Заказывал детали на мазда 3. И ещё на несколько автомобилей. Работают быстро и качественно. Главное сервис! Доставили все куда удобно. Заказывал даже коробку. Все круто!! Буду советовать всем!!!</p>
+      </div>
+    </div>
+   
+  </div>
+
+   <!-- Указатели <-->
+  
+   </-->
+  <ol class="carousel-indicators">
+    <li id="qw" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li id="qw" data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li id="qw" data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+</div>
+
+
+
+
+
+</div>
+
+<p id="contacts"></p>
+<div >
+  <h1  class="blue">Связь с нами</h1>
+  <img class="dot" src="img/dot.png" />
+
+
+
+<div class="flex_us_contacts">
+
+
+  <div class="data">
+
+
+ <div class="col-lg-12">
+      <form class="form-horizontal" action="post2.php" method= "POST">
+      <div class="form-group  ">
+      <div class="col-sm-10"><input autocomplete="off" required=""  value="" class="form-control" type="text" name="name1" placeholder="ВАШЕ ИМЯ" /></div>
+      </div>
+      <div class="form-group">
+      <div class="col-sm-10"><input autocomplete="off" pattern="^[0123456789]+$"  class="form-control" type="text" name="name2" required="" placeholder="НОМЕР ТЕЛЕФОНА" /></div>
+      </div>
+      <div class="form-group">
+      <div class="col-sm-10"><input autocomplete="off" type="text" name="name3" required="required" class="form-control" placeholder="ВАШ EMAIL " /> 
+      </div></div>
+         <div class="form-group">
+       <div class="col-sm-10"><textarea type="text" name="name4" required="" 
+       class="form-control" 
+       rows="7"  placeholder="ПРИМЕЧАНИЯ"></textarea>    
+      </div></div>
+        <div class="form-group">
+         <div class="col-sm-10">
+<div class="for_button_and_p ">  
+<input type="submit" value="Написать"  class="btn btn-danger bt vf-submit send_to">
+    <p>Нажимая данную кнопку вы даете свое согласие на обработку ваших персональных данных.</p>
+</div>
+</div>
+</div>
+
+      </form>
+
+    </div>
+
+<div class="information ">
+    <span>Как нас найти?</span>
+    <p  class="information_info">Адрес:  г. Пермь, ул. Куфонина 19. <br>
+Расположен на первом этаже здания.</p>
+<span>Наши контакты</span>
+<p class="information_info">Телефон: <a href="tel:+79128886201">+7 (912) 888-62-01</a></p>
+<p class="information_info">Email: <a  href="mailto:Kontrakt59@mail.ru">Kontrakt59@mail.ru</a></p>
+<a href="https://vk.com/kontraktcentre" target="_blank">Мы в Вконтакте!</a>
+</div>
+  </div>
+
+</div></div>
+
+<div class="map">
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acead54545ebe8ae76c360fbb0f824bcf32fb30ac3ab72cd062edc3136cb7936b&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+
+<footer>
+<div class="footer_blue_line">
+  <div class="for_to_up">
+      <div>
+    <a><img src="img/to_up.png" alt="" title="В начало страницы" >
+    </div>
+  </div>
+</div>
+<div>
+
+  <ul class="call call_footer" >
+        <li>Звоните: <span class="call_phone"><a href="tel:+79128886201">+7(912)888-62-01</a></span></li>
+        <li class="line">|</li>
+        <li>Пишите:  <span class="call_mail"><a href="mailto:Kontrakt59@mail.ru">Kontrakt59@mail.ru</a></span></li>
+      </ul>
+  </div>
+</footer>
+  </div>
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+    <script src="MyJs.js"></script>
+    <script src="smoothscroll.min.js"></script>
+  <script src="jVForms.min.js"></script>
+<script>
+    jVForms.initialize();
+</script>
+</body>
+</html>
